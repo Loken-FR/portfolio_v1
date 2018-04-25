@@ -7,26 +7,123 @@ a45a9f = violet
   #GENERAL
 \*------------------------------------*/
 
-@font-face{
+@font-face {
     font-family: 'Adelle Bold';
     src: url(../fonts/Adelle_Bold.otf);
 }
 
-@font-face{
+@font-face {
     font-family: 'Open Sans';
     src: url(../fonts/OpenSans-Regular.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: 'Open Sans Bold';
     src: url(../fonts/OpenSans-Bold.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: 'Open Sans Italic';
     src: url(../fonts/OpenSans-SemiBoldItalic.ttf);
 }
 
-body{
-    width: 80%;
+body {
+    width: 100%;
+    height: 100%;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+
+.header {
+    background: #dfdfdf;
+    width: 100%;
+    height: 190px;
+    border-bottom: 1px solid #2c122e;
+}
+
+.header .container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .logo-section {
+    display: inline-block;
+    margin-right: 160px;
+    margin-left: 50px;
+    position: relative;
+    bottom: -12px;
+}
+
+
+.header .menu-section {
+
+    display: inline-block;
+    position: relative;
+    bottom: 62px;
+}
+
+.header .line {
+    width: 50px;
+    height: 3px;
+    background: #a45a9f;
+}
+
+.header .menu-section .item {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Adelle Bold';
+    font-size: 24px;
+}
+
+.header .menu-section .item-1, .item-2, .item-3 {
+    margin-right: 100px;
+}
+
+/***** RESPONSIVE  *****/
+
+
+
+/*------------------------------------*\
+  #MAIN
+\*------------------------------------*/
+
+/*----- SECTION 1  -----*/
+
+/***** RESPONSIVE  *****/
+
+
+
+/*----- SECTION 2  -----*/
+
+/***** RESPONSIVE  *****/
+
+
+
+/*----- SECTION 3  -----*/
+
+/***** RESPONSIVE  *****/
+
+
+
+/*----- SECTION 4  -----*/
+
+/***** RESPONSIVE  *****/
+
+
+
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
