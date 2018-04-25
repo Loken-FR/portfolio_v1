@@ -1,0 +1,32 @@
+/*
+a45a9f = violet
+2c122e = noir
+*/
+
+/*------------------------------------*\
+  #GENERAL
+\*------------------------------------*/
+
+@font-face{
+    font-family: 'Adelle Bold';
+    src: url(../fonts/Adelle_Bold.otf);
+}
+
+@font-face{
+    font-family: 'Open Sans';
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Open Sans Bold';
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'Open Sans Italic';
+    src: url(../fonts/OpenSans-SemiBoldItalic.ttf);
+}
+
+body{
+    width: 80%;
+}
