@@ -62,7 +62,7 @@ a {
 .header .logo-section {
     display: inline-block;
     margin-right: 160px;
-    margin-left: 50px;
+    margin-left: 45px;
     position: relative;
     bottom: -12px;
 }
@@ -85,11 +85,11 @@ a {
     display: inline-block;
     text-align: center;
     font-family: 'Adelle Bold';
-    font-size: 24px;
+    font-size: 25px;
 }
 
 .header .menu-section .item-1, .item-2, .item-3 {
-    margin-right: 100px;
+    margin-right: 90px;
 }
 
 /***** RESPONSIVE  *****/
@@ -101,6 +101,44 @@ a {
 \*------------------------------------*/
 
 /*----- SECTION 1  -----*/
+
+.main {
+    width: 100%;
+}
+
+.main .section-1 {
+    background: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    /* 940 - padding total of section */
+    height: 880px;
+}
+
+.main .section-1 .title-section {
+    padding-top: 60px;
+    width: 200px;
+    margin: auto;
+    font-family: 'Adelle Bold';
+    font-size: 34px;
+}
+
+.main .section-1 .title-section .line {
+    width: 60px;
+    height: 3px;
+    background: #a45a9f;
+}
+
+.main .section-1 .text-section {
+    padding-top: 80px;
+    width: 750px;
+    margin: auto;
+    font-family: 'Open Sans';
+    font-size: 24px;
+}
+
+.main .section-1 .text-section .p {
+    margin-bottom: 40px;
+}
 
 /***** RESPONSIVE  *****/
 
@@ -127,3 +165,4 @@ a {
 /*------------------------------------*\
   #FOOTER
 \*------------------------------------*/
+
