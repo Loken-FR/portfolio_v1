@@ -111,7 +111,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     /* 940 - padding total of section */
-    height: 880px;
+    height: 800px;
 }
 
 .main .section-1 .title-section {
@@ -146,11 +146,178 @@ a {
 
 /*----- SECTION 2  -----*/
 
+.main .section-2 {
+    background: rosybrown;
+    margin-left: auto;
+    margin-right: auto;
+    /* 1130 - padding total of section */
+    height: 990px;
+}
+
+.main .section-2 .title-section {
+    padding-top: 60px;
+    width: 290px;
+    margin: auto;
+    font-family: 'Adelle Bold';
+    font-size: 34px;
+}
+
+.main .section-2 .title-section .line {
+    width: 60px;
+    height: 3px;
+    background: #a45a9f;
+}
+
+.main .section-2 .abilities {
+    width: 1000px;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main .section-2 .abilities .section {
+    display: inline-block;
+    width: 320px;
+    text-align: center;
+}
+
+.main .section-2 .abilities .title {
+    font-family: 'Open Sans Bold';
+    font-size: 24px;
+}
+
+/* container of abilities img, text */
+.main .section-2 .abil {
+    margin-top: 35px;
+}
+
+.main .section-2 .web-dev, .in-learn {
+    margin-right: 10px;
+}
+
+.main .section-2 .web-dev .html-css-js {
+    margin-bottom: 25px;
+}
+
+/* img php */
+.main .section-2 .web-dev .php {
+    margin-right: 5px;
+}
+
+.main .section-2 .tools {
+    position: relative;
+    bottom: 132px;
+}
+
+/* img vscode */
+.main .section-2 .tools .vscode {
+    margin-right: 20px;
+}
+
+.main .section-2 .design {
+    position: relative;
+    bottom: 132px;
+}
+
+/* img of xd, illustrator */
+.main .section-2 .design .xd, .illustrator {
+    margin-right: 10px;
+}
+
+.main .section-2 .in-learn {
+    margin-top: 75px;
+}
+
+.main .section-2 .in-learn .webdev {
+    margin-bottom: 25px;
+}
+
+.main .section-2 .others {
+    position: relative;
+    bottom: 131px;
+}
+
+.main .section-2 .others .abil {
+    font-family: 'Open Sans';
+    font-size: 20px;
+}
+
+.main .section-2 .others .a-1 {
+    margin-bottom: 12px;
+}
+
 /***** RESPONSIVE  *****/
 
 
 
 /*----- SECTION 3  -----*/
+
+.main .section-3 {
+    background: rebeccapurple;
+    margin-left: auto;
+    margin-right: auto;
+    /* 1130 - padding total of section */
+    height: 990px;
+}
+
+.main .section-3 .title-section {
+    padding-top: 60px;
+    width: 325px;
+    margin: auto;
+    font-family: 'Adelle Bold';
+    font-size: 34px;
+}
+
+.main .section-3 .title-section .line {
+    width: 60px;
+    height: 3px;
+    background: #a45a9f;
+}
+
+.main .section-3 .works {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    text-align: center;
+}
+
+/* img gestion */
+.main .section-3 .preview {
+    width: 300px;
+    height: 150px;
+    background: chartreuse;
+}
+
+.main .section-3 .preview img {
+    width: 100%;
+    height: 100%;
+}
+/* end of img gestion */
+
+.main .section-3 .work {
+    display: inline-block;
+}
+
+.main .section-3 .works .title-sect {
+    font-family: 'Open Sans Bold';
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+.main .section-3 .works .title {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.main .section-3 .web-dev-works {
+    margin-bottom: 50px;
+}
+
+.main .section-3 .web-dev-works .work-1, .work-2 {
+    margin-right: 45px;
+}
 
 /***** RESPONSIVE  *****/
 
