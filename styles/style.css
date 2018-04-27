@@ -14,7 +14,7 @@ a45a9f = violet
 
 @font-face {
     font-family: 'Open Sans';
-    src: url(../fonts/OpenSans-Regular.ttf);
+    src: url(../fonts/OpenSans-SemiBold.ttf);
 }
 
 @font-face {
@@ -111,7 +111,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     /* 940 - padding total of section */
-    height: 800px;
+    height: 990px;
 }
 
 .main .section-1 .title-section {
@@ -137,7 +137,8 @@ a {
 }
 
 .main .section-1 .text-section .p {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    line-height: 30px;
 }
 
 /***** RESPONSIVE  *****/
@@ -287,6 +288,7 @@ a {
     width: 300px;
     height: 150px;
     background: chartreuse;
+    border: 1px solid #111;
 }
 
 .main .section-3 .preview img {
@@ -325,6 +327,57 @@ a {
 
 /*----- SECTION 4  -----*/
 
+.main .section-4 {
+    background: yellowgreen;
+    margin-left: auto;
+    margin-right: auto;
+    /* 1130 - padding total of section */
+    height: 990px;
+}
+
+.main .section-4 .title-section {
+    padding-top: 60px;
+    width: 240px;
+    margin: auto;
+    font-family: 'Adelle Bold';
+    font-size: 34px;
+}
+
+.main .section-4 .title-section .line {
+    width: 60px;
+    height: 3px;
+    background: #a45a9f;
+}
+
+.main .section-4 .section {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.main .section-4 .contact-1 {
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.main .section-4 .section .title {
+    font-family: 'Open Sans Bold';
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.main .section-4 .section .help {
+    margin-bottom: 30px;
+    font-family: 'Open Sans Italic';
+    font-size: 18px;
+}
+
+.main .section-4 .mail, .linkedin, .twitter {
+    margin-right: 120px;
+}
+
+
 /***** RESPONSIVE  *****/
 
 
@@ -333,3 +386,14 @@ a {
   #FOOTER
 \*------------------------------------*/
 
+.footer {
+    height:105px;
+
+    text-align: center;
+}
+
+.footer .creator {
+    margin-top: 85px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+}
