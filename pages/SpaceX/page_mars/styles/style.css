@@ -1,0 +1,317 @@
+/**********************\
+
+          GENERAL
+
+/**********************/
+
+@font-face {
+    font-family: 'space_light';
+    src: url('../fonts/space_light.otf');
+}
+
+@font-face {
+    font-family: 'space_bold';
+    src: url('../fonts/space_bold.otf');
+}
+
+@font-face {
+    font-family: 'space_regular';
+    src: url('../fonts/space_regular.otf');
+}
+
+@font-face {
+    font-family: 'roboto_regular';
+    src: url('../fonts/roboto_regular.ttf')
+}
+
+body {
+    background: url('../images/backgroundMars.png');
+    background-size: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/***** SPACEX LOGO *****/
+
+.logo-mars .spaceX {
+    position: absolute;
+    will-change: opacity;
+    opacity: 0.6;
+    top: 20px;
+    left: 50px;
+    width: 500px;
+}
+
+
+/***** CONTAIN MARS *****/
+
+.containMars {
+    position: relative;
+    margin: auto;
+    margin-top: 7%;
+    width: 1260px;
+}
+
+.containMars h2 {
+    color: #9E3030;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px #EE7D7D;
+}
+
+.containMars p {
+    color: #9E3030;
+}
+
+
+/******************************\
+          
+      INFOS SECTION MARS
+
+/*******************************/
+
+.containMars .infos-section {
+    position: absolute;
+    margin-top: 12%;
+    left: -8%;
+    width: 400px;
+    height: 300px;
+}
+
+.containMars .infos-section .background {
+    position: absolute;
+    top: -150px;
+    left: -165px;
+    will-change: opacity;
+    opacity: 0.6;
+}
+
+.containMars .infos-section .title {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 21%;
+    font-family: 'space_light', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.containMars .infos-section .description {
+    font-family: 'roboto_regular', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 3%;
+    margin-right: 10%;
+}
+
+
+/**********************\
+
+     MARS SECTION
+
+/**********************/
+
+.containMars .planet-section {
+    position: absolute;
+    margin-top: 28%;
+    /* center trick */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+    /* effects */
+    box-shadow: 0 0 10px 0px #ff2400 inset, 0 0 30px #ff2400;
+    /* filter: drop-shadow(5px 5px 15px #182d52); */
+}
+
+
+/*** MARS PLANISPHERE ***/
+
+.containMars .planet-section .planet {
+    position: absolute;
+    width: 390%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: url('../images/Mars.png') repeat-x;
+    background-size: 52%;
+    /* box-shadow: -100px 10px 100px 0px #182d52 inset; */
+    will-change: transform;
+    animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-52%);
+    }
+}
+
+
+/*** MARS EFFECT DIV BEHIND THE PLANET ***/
+
+.containMars .planet-section .planet-for-effect {
+    position: absolute;
+    width: 390%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: url('../images/Mars-inverse.png') repeat-x;
+    background-size: 52%;
+    filter: blur(3px);
+    will-change: opacity;
+    opacity: 0.75;
+    /* box-shadow: -100px 10px 100px 0px #182d52 inset; */
+    will-change: transform;
+    animation: slideEffect 20s linear infinite;
+}
+
+@keyframes slideEffect {
+    from {
+        transform: translateX(-52%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+/*******************************\
+
+    ACTIONS SECTION MARS
+
+/********************************/
+
+.containMars .action-section {
+    left: 35%;
+    position: absolute;
+    margin-top: 55%;
+    width: 400px;
+    height: 100px;
+}
+
+.containMars .action-section a {
+    display: inline-block;
+    margin-top: 6%;
+}
+
+.containMars .action-section h2 {
+    display: inline-block;
+    font-family: 'space_regular', sans-serif;
+    font-size: 34px;
+    text-align: center;
+}
+
+.containMars .action-section img {
+    width: 60px;
+}
+
+.containMars .action-section .prev {
+    margin-left: 5%;
+}
+
+.containMars .action-section .planet-name {
+    position: relative;
+    bottom: 15.5%;
+    left: 12%;
+}
+
+.containMars .action-section .next {
+    margin-left: 25%;
+}
+
+
+/*****************************\
+
+      TEXTS SECTION MARS
+
+/******************************/
+
+.containMars .texts-section {
+    position: absolute;
+    margin-top: 18%;
+    right: -8%;
+    width: 400px;
+    height: 500px;
+}
+
+.containMars .title-section {
+    margin-bottom: 5%;
+    font-family: 'space_light', sans-serif;
+    font-size: 20px;
+}
+
+.containMars .texts-section p {
+    font-family: 'roboto_regular', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.containMars .texts-section img {
+    position: relative;
+    margin-left: 5%;
+    top: 10px;
+    width: 40px;
+}
+
+.containMars .texts-section .mission-section {
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.containMars .mission-section .title-section .mission {
+    display: inline-block;
+}
+
+.containMars .texts-section .rocket-section {
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.containMars .rocket-section .title-section .mission {
+    display: inline-block;
+}
+
+.containMars .texts-section .datas-section {
+    margin-left: 5%;
+}
+
+.containMars .datas-section .title-section .mission {
+    display: inline-block;
+}
+
+.containMars .texts-section .datas-section .description .platform-img {
+    display: inline-block;
+    width: 40px;
+}
+
+.containMars .texts-section .datas-section .description .platform {
+    display: inline-block;
+}
+
+
+/**********************\
+
+      CLASS FOR JS
+
+/**********************/
+
+.displayNone {
+    overflow: hidden;
+    height: 0;
+    will-change: opacity;
+    opacity: 0;
+}
+
+.displayYes {
+    overflow: hidden;
+    height: auto;
+    will-change: opacity;
+    opacity: 1;
+    transition: opacity 0.75s ease-in;
+}

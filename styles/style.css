@@ -235,17 +235,19 @@ a {
 
 .main .section-2 .others {
     position: relative;
-    bottom: 131px;
+    bottom: 132px;
 }
 
 .main .section-2 .others .abil {
     font-family: 'Open Sans';
-    font-size: 20px;
+    font-size: 18px;
+    color: #2c122e;
 }
 
 .main .section-2 .others .a-1 {
     margin-bottom: 12px;
 }
+
 
 /***** RESPONSIVE  *****/
 
@@ -350,15 +352,15 @@ a {
 }
 
 .main .section-4 .section {
-    width: 1000px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
 .main .section-4 .contact-1 {
-    margin-top: 80px;
-    margin-bottom: 120px;
+    margin-top: 100px;
+    margin-bottom: 125px;
 }
 
 .main .section-4 .section .title {
@@ -367,14 +369,30 @@ a {
     margin-bottom: 40px;
 }
 
-.main .section-4 .section .help {
+/* .main .section-4 .section .help {
     margin-bottom: 30px;
     font-family: 'Open Sans Italic';
     font-size: 18px;
+} */
+
+.main .section-4 .container {
+    display: inline-block;
+    text-align: center;
+    margin-top: 40px;
+    width: 275px;
 }
 
-.main .section-4 .mail, .linkedin, .twitter {
-    margin-right: 120px;
+
+.main .section-4 img {
+    width: 75px;
+}
+
+
+.main .section-4 .info {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    margin-top: 25px;
+    color: #2c122e;
 }
 
 
@@ -387,13 +405,51 @@ a {
 \*------------------------------------*/
 
 .footer {
-    height:105px;
-
+    height:190px;
+    border-top: solid 1px #2c122e;
     text-align: center;
 }
 
 .footer .creator {
     margin-top: 85px;
     font-family: 'Open Sans';
-    font-size: 18px;
+    font-size: 20px;
+}
+
+
+
+/*------------------------------------*\
+  #USER FLOW PAGE
+\*------------------------------------*/
+
+.main-user-flow {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.main-user-flow .title-section {
+    padding-top: 60px;
+    width: 240px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Adelle Bold';
+    font-size: 28px;
+}
+
+.main-user-flow .line {
+    width: 40px;
+    height: 3px;
+    margin-left: 5px;
+    background: #a45a9f;
+}
+
+.main-user-flow .example {
+    font-family: 'Open Sans';
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }

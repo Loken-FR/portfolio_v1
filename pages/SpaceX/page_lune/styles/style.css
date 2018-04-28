@@ -1,0 +1,315 @@
+/**********************\
+
+          GENERAL
+
+/**********************/
+
+@font-face {
+    font-family: 'space_light';
+    src: url('../fonts/space_light.otf');
+}
+
+@font-face {
+    font-family: 'space_bold';
+    src: url('../fonts/space_bold.otf');
+}
+
+@font-face {
+    font-family: 'space_regular';
+    src: url('../fonts/space_regular.otf');
+}
+
+@font-face {
+    font-family: 'roboto_regular';
+    src: url('../fonts/roboto_regular.ttf')
+}
+
+body {
+    background: url('../images/backgroundMoon.png');
+    background-size: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/***** SPACEX LOGO *****/
+
+.logo-moon .spaceX {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 500px;
+}
+
+
+/***** CONTAIN MOON *****/
+
+.containMoon {
+    position: relative;
+    margin: auto;
+    margin-top: 7%;
+    width: 1260px;
+}
+
+.containMoon h2 {
+    color: #DFDFDF;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px #A2A2A2;
+}
+
+.containMoon p {
+    color: #DFDFDF;
+}
+
+
+/******************************\
+          
+      INFOS SECTION MOON
+
+/*******************************/
+
+.containMoon .infos-section {
+    position: absolute;
+    margin-top: 12%;
+    left: -8%;
+    width: 400px;
+    height: 300px;
+}
+
+.containMoon .infos-section .background {
+    position: absolute;
+    top: -150px;
+    left: -165px;
+    will-change: opacity;
+    opacity: 0.65;
+}
+
+.containMoon .infos-section .title {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 21%;
+    font-family: 'space_light', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.containMoon .infos-section .description {
+    font-family: 'roboto_regular', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 3%;
+    margin-right: 10%;
+}
+
+
+/**********************\
+
+     MOON SECTION
+
+/**********************/
+
+.containMoon .planet-section {
+    position: absolute;
+    margin-top: 28%;
+    /* center trick */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+    /* effects */
+    box-shadow: 0 0 40px 20px #454646 inset, 0px 0px 50px #454646;
+    /* filter: drop-shadow(5px 5px 15px #182d52); */
+}
+
+
+/*** MOON PLANISPHERE ***/
+
+.containMoon .planet-section .planet {
+    position: absolute;
+    width: 384%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: url('../images/Moon.png') repeat-x;
+    background-size: 52%;
+    /* box-shadow: -100px 10px 100px 0px #182d52 inset; */
+    will-change: transform;
+    animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-52%);
+    }
+}
+
+
+/*** MOON EFFECT DIV BEHIND THE PLANET ***/
+
+.containMoon .planet-section .planet-for-effect {
+    position: absolute;
+    width: 384%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: url('../images/Moon-inverse.png') repeat-x;
+    background-size: 52%;
+    filter: blur(3px);
+    will-change: opacity;
+    opacity: 0.75;
+    /* box-shadow: -100px 10px 100px 0px #182d52 inset; */
+    will-change: transform;
+    animation: slideEffect 20s linear infinite;
+}
+
+@keyframes slideEffect {
+    from {
+        transform: translateX(-52%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+/*******************************\
+
+    ACTIONS SECTION MOON
+
+/********************************/
+
+.containMoon .action-section {
+    left: 35%;
+    position: absolute;
+    margin-top: 55%;
+    width: 400px;
+    height: 100px;
+}
+
+.containMoon .action-section a {
+    display: inline-block;
+    margin-top: 6%;
+}
+
+.containMoon .action-section h2 {
+    display: inline-block;
+    font-family: 'space_regular', sans-serif;
+    font-size: 34px;
+    text-align: center;
+}
+
+.containMoon .action-section img {
+    width: 60px;
+}
+
+.containMoon .action-section .prev {
+    margin-left: 5%;
+}
+
+.containMoon .action-section .planet-name {
+    position: relative;
+    bottom: 15.5%;
+    left: 12%;
+}
+
+.containMoon .action-section .next {
+    margin-left: 25%;
+}
+
+
+/*****************************\
+
+      TEXTS SECTION MOON
+
+/******************************/
+
+.containMoon .texts-section {
+    position: absolute;
+    margin-top: 18%;
+    right: -8%;
+    width: 400px;
+    height: 500px;
+}
+
+.containMoon .title-section {
+    margin-bottom: 5%;
+    font-family: 'space_light', sans-serif;
+    font-size: 20px;
+}
+
+.containMoon .texts-section p {
+    font-family: 'roboto_regular', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.containMoon .texts-section img {
+    position: relative;
+    margin-left: 5%;
+    top: 10px;
+    width: 40px;
+}
+
+.containMoon .texts-section .mission-section {
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.containMoon .mission-section .title-section .mission {
+    display: inline-block;
+}
+
+.containMoon .texts-section .rocket-section {
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.containMoon .rocket-section .title-section .mission {
+    display: inline-block;
+}
+
+.containMoon .texts-section .datas-section {
+    margin-left: 5%;
+}
+
+.containMoon .datas-section .title-section .mission {
+    display: inline-block;
+}
+
+.containMoon .texts-section .datas-section .description .platform-img {
+    display: inline-block;
+    width: 40px;
+}
+
+.containMoon .texts-section .datas-section .description .platform {
+    display: inline-block;
+}
+
+
+/**********************\
+
+      CLASS FOR JS
+
+/**********************/
+
+.displayNone {
+    overflow: hidden;
+    height: 0;
+    will-change: opacity;
+    opacity: 0;
+}
+
+.displayYes {
+    overflow: hidden;
+    height: auto;
+    will-change: opacity;
+    opacity: 1;
+    transition: opacity 0.75s ease-in;
+}

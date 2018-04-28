@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Lola Amsellem</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <meta name="viewport" content="width=device-width" />
+
+</head>
+
+<body>
+  <header id="accueilHeader">
+    <div class="header">
+      <h1>TATOUAGES ET DESSINS</h1>
+      <a href="index.html"><img src="images/logoSeul.png" alt="logoAcceuil" class="logoAcceuil"></a>
+    </div>
+
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="hiddenReponsive">A propos</a>
+      <a href="pages/pageGallerie.html">Gallerie</a>
+      <a href="pages/pageInspiration.html">Inspiration</a>
+      <a href="pages/pageTechnique.html">Technique</a>
+      <a href="pages/pageContact.html">Contact</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <!-- responsive script for menu -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
+    <div class="wrap">
+      <a href="#mainAccueil"><img src="http://image.flaticon.com/icons/svg/3/3907.svg" id="arrow" class="animated bounce" alt="scroll arrow"></a>
+    </div>
+
+  </header>
+
+  <main id="mainAccueil">
+    <div class="">
+      <img src="images/lola.png" class="photoDescription" alt="Lola Amsellem">
+    </div>
+    <div class="limit"></div>
+    <div class="description">
+      <article class="resumeLola">
+        <h2>Bienvenue</h2>
+        <br> Avant de vous piquer, peut-être vaudrait-il mieux que vous en sachiez plus sur moi! Je dessine depuis toujours,
+        Je suis lola,
+        et c’est une <strong>véritable passion</strong>. Je n’ai jamais suivie de cours de dessin ce qui n’a pas entravé
+        ma motivation. D’heureuses rencontres sur mon chemin m’ont mené à m’intéresser à <strong>l’art du tatouage</strong>        et m’ont motivé à me lancer. Je me suis donc
+        <strong>formé aux techniques auprès de tatoueurs expérimentés</strong> dans mon entourage. Chaque tatoueur ayant
+        sa propre patte, je <strong>privilégie donc les tatouages à <em>l’encre noire</em></strong>. Ainsi, mes dessins allient
+        finesse et simplicité.
+        <p>
+          Je pense, dessine, et tatoue moi-même <strong>chaque pièce</strong>, mais si vous désirez un dessin en particulier
+          n’hésitez pas à me faire part de vos idées !
+        </p>
+
+      </article>
+    </div>
+    <div class="limit"></div>
+    <div class="informationsContact">
+      <h4><em>Sur rendez-vous !</em></h4>
+      <p><strong>Email :</strong> Lolaamsellem@gmail.com</p>
+      <p><strong>Téléphone :</strong> 06 12 34 56 78</p>
+      <p><strong>Adresse :</strong> 220 Rue Saint-Maur, 75010 Paris</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="hrFooter"></div>
+    <div class="footer">
+      <div>
+        <div class="categorieFooter">
+          <img class="copyright" src="images/copyright.png" alt="copyright">
+          <a href="#">
+            <h2 class="copyrightName">Lola Amsellem</h2>
+          </a>
+          <p>-</p>
+          <a href="pages/pageContact.html">
+            <h2>Contact</h2>
+          </a>
+        </div>
+        <div class="reseauxSociaux">
+          <a href="https://www.facebook.com/LolaAmsellem" target="_blank"><img src="images/facebook-logo.png" alt="facebook"></a>
+          <a href="https://www.instagram.com/lolamsl/" target="_blank"><img src="images/instagram-logo.png" alt="intagram"></a>
+          <a href="https://fr.pinterest.com/lolamsellem/" target="_blank"><img src="images/pinterest.png" alt="pinterest"></a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
