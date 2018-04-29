@@ -94,6 +94,38 @@ a {
 
 /***** RESPONSIVE  *****/
 
+/* iPhone 5, 5S, 5C and 5SE  */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px) {
+    .header .logo-section {
+        display: none;
+    }
+
+    .header .menu-section {
+        margin-top: 15px;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .header .menu-section .item {
+        display: inline-block;
+        text-align: center;
+        font-family: 'Adelle Bold';
+        font-size: 18px;
+    }
+
+    .header .menu-section .item-1, .item-2, .item-3 {
+        margin-right: 15px;
+        margin-top: 25px;
+    }
+
+    .header .line {
+        width: 25px;
+        height: 2px;
+    }
+}
+
 /* Smartphones */
 @media only screen
   and (min-device-width: 359px)
@@ -257,6 +289,30 @@ a {
 
 
 /***** RESPONSIVE  *****/
+/* iPhone 5, 5S, 5C and 5SE  */
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px) {
+    .main .section-1 {
+        height: 100%;
+    }
+
+    .main .section-1 .title-section {
+        font-size: 28px;
+        width: 160px;
+    }
+
+
+    .main .section-1 .text-section {
+        padding-top: 60px;
+        padding-bottom: 20px;
+        width: 260px;
+        margin: auto;
+        font-family: 'Open Sans';
+        font-size: 18px;
+    }
+}
 
 /* Smartphones */
 @media only screen
@@ -415,6 +471,50 @@ a {
 
 /***** RESPONSIVE  *****/
 
+/* iPhone 5, 5S, 5C and 5SE  */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px) {
+    .main .section-2 {
+        height: 1350px;
+    }
+
+    .main .section-2 .title-section {
+        font-size: 28px;
+        width: 240px;
+    }
+
+    .main .section-2 .abilities {
+        width: 100%;
+        padding-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .main .section-2 .abilities .vide {
+        display: none;
+    }
+
+    .main .section-2 .abilities .in-learn {
+        position: initial;
+    }
+
+    .main .section-2 .tools {
+        position: initial;
+        margin-top: 50px;
+    }
+
+    .main .section-2 .design {
+        position: initial;
+        margin-top: 50px;
+    }
+
+    .main .section-2 .others {
+        position: initial;
+        margin-top: 30px;
+    }
+}
+
 /* Smartphones */
 @media only screen
   and (min-device-width: 359px)
@@ -569,6 +669,40 @@ a {
 
 /***** RESPONSIVE  *****/
 
+
+/* iPhone 5, 5S, 5C and 5SE  */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px) {
+    .main .section-3 {
+        height: 1300px;
+    }
+
+    .main .section-3 .title-section {
+        font-size: 28px;
+        width: 270px;
+    }
+
+    .main .section-3 .works {
+        width: 100%;
+    }
+
+    .main .section-3 .work {
+        margin-right: 0;
+        margin-top: 25px;
+    }
+
+    .main .section-3 .web-dev-works .work-1 {
+        position: relative;
+        right: -10px;
+    }
+
+    .main .section-3 .work-3 {
+        display: inline-block;
+        margin-top: 40px;
+    }
+}
+
 /* Smartphones */
 @media only screen
   and (min-device-width: 359px)
@@ -709,6 +843,34 @@ a {
 
 
 /***** RESPONSIVE  *****/
+
+/* iPhone 5, 5S, 5C and 5SE  */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px) {
+    .main .section-4 {
+        height: 1225px;
+    }
+
+    .main .section-4 .section .title {
+        font-family: 'Open Sans Bold';
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .back-top {
+        margin-top: 10px;
+        margin-bottom: 25px;
+        width: 50px;
+        margin-right: auto;
+        margin-left: 245px;
+        float: none;
+    }
+
+    .main .section-4 h2 {
+        font-size: 20px;
+    }
+}
 
 /* Smartphones */
 @media only screen
